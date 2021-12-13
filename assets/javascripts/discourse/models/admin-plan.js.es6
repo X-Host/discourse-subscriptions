@@ -7,7 +7,7 @@ const AdminPlan = Plan.extend({
   name: "",
   interval: "month",
   unit_amount: 0,
-  intervals: ["day", "week", "month", "year"],
+  intervals: ["day", "week", "month", "quarter", "semiannual", "year"],
   metadata: {},
 
   @discourseComputed("trial_period_days")
