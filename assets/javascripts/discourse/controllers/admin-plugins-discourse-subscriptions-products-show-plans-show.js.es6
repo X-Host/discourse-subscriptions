@@ -48,6 +48,8 @@ export default Controller.extend({
       { id: "day", name: "day" },
       { id: "week", name: "week" },
       { id: "month", name: "month" },
+      { id: "quarter", name: "quarter" },
+      { id: "semiannual", name: "semiannual" },
       { id: "year", name: "year" },
     ];
   },
